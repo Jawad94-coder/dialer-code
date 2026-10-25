@@ -1,0 +1,17 @@
+[functions.conversations]
+verify_jwt = true
+
+[functions.messages]
+verify_jwt = true
+
+[functions.send-sms]
+verify_jwt = true
+
+[functions.update-conversation]
+verify_jwt = true
+
+[functions.signalwire-sms-webhook]
+verify_jwt = false
+
+[functions.signalwire-status-callback]
+verify_jwt = false
